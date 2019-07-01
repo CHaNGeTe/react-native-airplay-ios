@@ -4,8 +4,9 @@ package = JSON.parse(File.read(File.join(__dir__, '../package.json')))
 
 Pod::Spec.new do |s|
   s.name         = "RNAirplay"
-  s.version      = "1.0.0"
+  s.version      = package['version']
   s.summary      = "RNAirplay"
+  s.homepage     = "https://github.com/gazedash/react-native-airplay-ios"
   s.description  = <<-DESC
                   RNAirplay
                    DESC
