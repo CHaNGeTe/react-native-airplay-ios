@@ -1,3 +1,6 @@
+require 'json'
+
+package = JSON.parse(File.read(File.join(__dir__, '../package.json')))
 
 Pod::Spec.new do |s|
   s.name         = "RNAirplay"
@@ -11,8 +14,8 @@ Pod::Spec.new do |s|
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "author" => "author@domain.cn" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/author/RNAirplay.git", :tag => "master" }
-  s.source_files  = "RNAirplay/**/*.{h,m}"
+  s.source       = { :git => "https://github.com/com:gazedash/react-native-airplay-ios.git", :tag => "master" }
+  s.source_files  = "RNAirplay/**/*.{h,m,swift}"
   s.requires_arc = true
 
 
