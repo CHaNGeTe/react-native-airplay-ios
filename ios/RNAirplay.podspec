@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
                    DESC
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-  s.author             = { "author" => "author@domain.cn" }
+  s.author       = { package["author"]["name"] => package["author"]["email"] }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/com:gazedash/react-native-airplay-ios.git", :tag => "master" }
   s.source_files  = "*.{h,m,swift}"
