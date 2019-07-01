@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.summary      = "RNAirplay"
   s.homepage     = "https://github.com/gazedash/react-native-airplay-ios"
   s.description  = <<-DESC
-                  RNAirplay
+                  RNAirplay desc
                    DESC
   s.homepage     = ""
   s.license      = "MIT"
